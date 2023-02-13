@@ -10,122 +10,30 @@ body{
     background-color: #121F3D;
 }
 
-
-/* Header VIEJO */
-/* .fondoLogo {
-    width: 288px;
-    height: 71px;
-    background: rgb(0,0,0);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(51,16,140,1) 53%, rgba(87,27,237,1) 100%);
-    position: absolute;
-    top: 3px;
-    left: 0px;
-}
-
-.fondoMenuCentral {
-    width: 882px;
-    height: 71px;
-    position: absolute;
-    top: 3px;
-    left: 288px;
-    background-color: #571bed;
-
-} */
-
-
-/* .fondoSinLogo {
-    width: 288px;
-    height: 71px;
-    position: absolute;
-    top: 3px;
-    left: 1170px;
-    background: rgb(87,27,237);
-    background: linear-gradient(90deg, rgba(87,27,237,1) 0%, rgba(42,118,227,1) 36%, rgba(3,198,218,1) 100%);
-}
-
-
-.letraBaires {
-    color: white;
-    font-size: 21px;
-    font-family: 'Lato', sans-serif;
-    position: absolute;
-    top: 4px;
-    left: 110px;
-}
-
-.letraConsulting {
-    color: white;
-    font-size: 21px;
-    font-family: 'Lato', sans-serif;
-    position: absolute;
-    top: 23px;
-    left: 110px;
-}
-
-
-.slogan {
-    color: white;
-    font-size: 8px;
-    font-family: 'Lato', sans-serif;
-    position: absolute;
-    top: 52px;
-    left: 125px;
-}
-
-
-
-.logoB {
-    width: 52px;
-    height: 60px;
-    position: absolute;
-    top: 5px;
-    left: 50px;
-} */
-
-
-
-/* HEADER NUEVO */
+/* NAV BOOTSTRAP*/
 
 
 
 nav{
-    width: 100%;
-    height: 70px;
-    margin:0 auto;
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(51,16,140,1) 53%, rgba(87,27,237,1) 100%);
-    display: flex;
-    justify-content: space-between;
 }
 
-.icoredes img{
-    width: 161px;
-    height: 60px;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 5px;
-    margin: auto;
-}
-nav ul{
-    list-style: none;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-}
-
-nav ul a{
-    font-weight: 500;
+.letraB {
     color: white;
     text-decoration: none;
-    padding: .8rem;
-    border-radius: 20px;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 7px;
 }
-nav ul a:hover{
-    transition: all 0.8s;
-    font-weight: 500;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border-radius: 20px;
+
+
+.letraB:hover {
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    transition: all .5s;
 }
+
 
 .logo{
     width:  161px;
@@ -134,6 +42,19 @@ nav ul a:hover{
     top: 4px;
     left: 4px;
 }
+
+.logoBairesNav{
+    width:  161px;
+    height: 60px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+    margin-right: 50px;
+    margin-bottom: 5px;
+}
+
+/* LINEA AZUL*/
+
 
 .lineaAzul {
     width: 100%;
@@ -144,37 +65,6 @@ nav ul a:hover{
     flex-direction: row;
     justify-content: flex-end;
 }
-
-
-.lineaAzul .contentTel a{
-    font-size: 12px;
-    border-radius: 15px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    color: aliceblue;
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    flex-direction: row;
-    text-decoration: none;
-}
-
-.lineaAzul .Seccion h4{
-    font-size: 1rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    color: rgb(240, 255, 243);
-    text-decoration: none;
-}
-
-.lineaAzul .Seccion {
-    font-size: 1rem;
-    position: absolute;
-    top: 82px;
-    left: 0px;
-    margin-left: 25px;
-}
-
 
 
 .contentTel {
@@ -208,6 +98,33 @@ nav ul a:hover{
     transition: all .5s;
 }
 
+
+.lineaAzul .contentTel a{
+    font-size: 12px;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.lineaAzul .Seccion h4{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: rgb(240, 255, 243);
+    text-decoration: none;
+}
+
+.lineaAzul .Seccion {
+    font-size: 1rem;
+    margin-left: 25px;
+}
+
 .contentMail {
     width: 200px;
     height: 30px;
@@ -239,12 +156,22 @@ nav ul a:hover{
 }
 
 
+.lineaAzul .contentMail a{
+    font-size: 12px;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-decoration: none;
+}
 
-/* FIN Header */
+/*CUERPO*/
 
 
-
-/* MAIN */
 
 .lineaAzul .contentMail a{
     font-size: 12px;
@@ -282,14 +209,6 @@ nav ul a:hover{
   
   .CiudadaniaESP { grid-area: CiudadaniaESP; }
 
-
-/* .contenedorCiudadanias {
-    width: 100%;
-    height: 80%;
-    background-image: url(../assets/roma.jpg);
-    filter: brightness(65%);
-
-} */
 
 /* CARDS */
 
@@ -743,6 +662,12 @@ h3 {
 
 @media (max-width: 1083px)  {
 
+    .logoBairesNav{
+        width:  161px;
+        height: 60px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
     .contenedorGridCiudadanias { 
         display: grid;
         background-color: #121F3D;
@@ -795,47 +720,8 @@ h3 {
     .menu {
         font-size: 0.8rem;
         }
-    nav{
-        width: 100%;
-        height: 135px;
-    }
-    nav ul{
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        background: rgba(87,27,237,1) 100%);
-        padding: 12px;
-    }
-    .logo{
-        width:  161px;
-        height: 60px;
-        display: flex;
-        justify-items: center;
-        margin: auto;
-    }
-    nav ul li{
-        margin: 2px;
-    }
-    nav ul{
-        padding: 12px;
-        display: flex;
-        align-items: start;
-    }
-    nav ul a{
-        font-weight: 500;
-        color: white;
-        text-decoration: none;
-        padding: .1rem;
-        border-radius: 20px;
-    }
-    nav ul a:hover{
-        transition: all 0.8s;
-        font-weight: 500;
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-        border-radius: 20px;
-    }
+        
+        
     .lineaAzul .Seccion h4{
         display: none;
         }
