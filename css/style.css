@@ -10,45 +10,29 @@ body{
     background-color: #121F3D;
 }
 
+/* NAV BOOTSTRAP*/
+
 nav{
-    width: 100%;
-    height: 70px;
-    margin:0 auto;
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(51,16,140,1) 53%, rgba(87,27,237,1) 100%);
-    display: flex;
-    justify-content: space-between;
 }
 
-.icoredes img{
-    width: 161px;
-    height: 60px;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 5px;
-    margin: auto;
-}
-
-nav ul{
-    list-style: none;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-}
-
-nav ul a{
-    font-weight: 500;
+.letraB {
     color: white;
     text-decoration: none;
-    padding: .8rem;
-    border-radius: 20px;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 7px;
 }
-nav ul a:hover{
-    transition: all 0.8s;
-    font-weight: 500;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border-radius: 20px;
+
+
+.letraB:hover {
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    transition: all .5s;
 }
+
+
 
 .logo{
     width:  161px;
@@ -57,6 +41,19 @@ nav ul a:hover{
     top: 4px;
     left: 4px;
 }
+
+.logoBairesNav{
+    width:  161px;
+    height: 60px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+    margin-right: 50px;
+    margin-bottom: 5px;
+}
+
+/* LINEA AZUL*/
+
 
 .lineaAzul {
     width: 100%;
@@ -124,9 +121,6 @@ nav ul a:hover{
 
 .lineaAzul .Seccion {
     font-size: 1rem;
-    position: absolute;
-    top: 82px;
-    left: 0px;
     margin-left: 25px;
 }
 
@@ -174,12 +168,12 @@ nav ul a:hover{
     text-decoration: none;
 }
 
-
+/*CUERPO*/
 
 .contenedor { 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 4fr 2fr auto;
+    grid-template-rows: 4.5fr 2fr auto;
     gap: 2px 2px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -212,25 +206,16 @@ nav ul a:hover{
 
 }
 
-.contenedor .mensajeCuerpo{
-    grid-area: cuerpo;
-    position: relative;
-    top: 6rem;
-    bottom: 3rem;
-    padding-top: 30px;
-    margin: auto;
-    font-size: 0.9rem;
-    }
-
-
-.mensajeCuerpo {
+.mensajeCuerpo{
     grid-area: cuerpo;
     width: 70%;
-    height: auto;
-    padding-bottom: 2rem;
+    height: 60%;
+    margin: 5rem auto;
+    font-size: 0.7rem;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 20px;    
-}
+    }
+
 
 .mensajeCuerpo:hover{
     background-color: rgba(255, 255, 255, 1);
@@ -239,11 +224,40 @@ nav ul a:hover{
 
 .mensajeCuerpo h1 {
     margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.cuerpo {
+    width: 100%;
+}
+
+.contenedorDesc {
+    width: 100%;
+}
+
+
+.contenedor h1 {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    padding: 1.5rem;
 }
 
 .mensajeCuerpo h2 {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
 }
+
+
+.descripcionBaires {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: start;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 
 .Contacto1 {
     border: solid 2px #03A9F4;
@@ -282,8 +296,17 @@ nav ul a:hover{
     border: solid 2px #03A9F4;
     justify-self: center;
     align-self: center;
+}
 
-
+.Contacto2 h4 {
+    font-family:'Poppins', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 400;
+    text-decoration:underline;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    margin-top: 25px;
 }
 
 .Contacto3 {
@@ -360,11 +383,6 @@ nav ul a:hover{
 
 
 
-h1 {
-color: #000;
-}
-
-
 h2 {
     color: #000;
     }
@@ -381,13 +399,6 @@ h4 {
     }
 
 
-.descripcionBaires {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    text-align: start;
-    padding-left: 20px;
-    padding-right: 20px;
-}
 
 .footer h3{
     font-family: 'Montserrat', sans-serif;
@@ -423,33 +434,36 @@ h4 {
 }
 
 @media (max-width: 1000px)  {
-    .contenedor .mensajeCuerpo {
-        margin-bottom: 10rem;
+    .logoBairesNav{
+        width:  161px;
+        height: 60px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .mensajeCuerpo {
+        height: 22em;
+    }
+
+    .mensajeCuerpo h1 {
+        margin-top: 10px;
+        padding: 1px;
+        margin: 0;
+        margin-bottom: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    .mensajeCuerpo h2 {
         font-size: 0.8rem;
+        margin: 5px;
     }
-    .cuerpo {
-        background-image: url(../assets/tribu8.jpg);
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+
     .contenedor {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 2fr 2fr 1fr;
-        gap: 2px 2px;
-        grid-auto-flow: row;
-        grid-template-areas:
-        "cuerpo cuerpo cuerpo"
-        "Contacto Contacto Contacto"
-        "footer footer footer";
     }
-    .cuerpo { grid-area: cuerpo; }
-    .Contacto { grid-area: Contacto; }
-    .footer { grid-area: footer; }
 
     .Contacto1 {
     display: flex;
@@ -468,6 +482,7 @@ h4 {
     .Contacto1, .Contacto2, .Contacto3 {
         margin: 15px auto;
         }
+
 }
 
 
@@ -476,57 +491,45 @@ h4 {
 
 
 @media (max-width: 830px)  {
+
     .lineaAzul {
         width: 100%;
         height: 45px;
         flex-wrap:nowrap;
         justify-content: center;
     }
+    .contenedor {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 2px 2px;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "cuerpo cuerpo cuerpo"
+        "Contacto Contacto Contacto"
+        "footer footer footer";
+    }
+    .cuerpo { grid-area: cuerpo; }
+    .Contacto { grid-area: Contacto; }
+    .footer { grid-area: footer; }
+
     .contenedor .mensajeCuerpo {
-        margin-bottom: 10rem;
+        margin-bottom: 2rem;
         font-size: 0.7rem;
     }
     .menu {
         font-size: 0.8rem;
     }
-    nav{
-        width: 100%;
-        height: 135px;
-    }
-    nav ul{
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        background: rgba(87,27,237,1) 100%);
-        padding: 12px;
-    }
-    .logo{
+
+    .logoBairesNav{
         width:  161px;
         height: 60px;
-        display: flex;
-        justify-items: center;
-        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
-    nav ul li{
-        margin: 2px;
-    }
-
-    nav ul a{
-        font-weight: 500;
-        color: white;
-        text-decoration: none;
-        padding: .1rem;
-        border-radius: 20px;
-    }
-    nav ul a:hover{
-        transition: all 0.8s;
-        font-weight: 500;
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-        border-radius: 20px;
-    }
     .lineaAzul .Seccion h4{
         display: none;
     }
@@ -534,5 +537,23 @@ h4 {
     .Contacto1, .Contacto2, .Contacto3 {
         margin: 15px auto;
         }
+
+        .mensajeCuerpo {
+            height: 370px;
+        }
+
+        .mensajeCuerpo h1 {
+            padding: 1px;
+            margin: 0;
+            background-color: #03A9F4;
+            margin-bottom: 30px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
     
+        .mensajeCuerpo h2 {
+            font-size: 0.8rem;
+            margin: 5px;
+        }
 }
