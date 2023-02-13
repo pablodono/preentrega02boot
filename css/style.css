@@ -482,7 +482,9 @@ h4 {
     .Contacto1, .Contacto2, .Contacto3 {
         margin: 15px auto;
         }
-
+        .mensajeCuerpo h1 {
+            padding-top: 20px;
+        }
 }
 
 
@@ -542,10 +544,11 @@ h4 {
             height: 370px;
         }
 
+
+
         .mensajeCuerpo h1 {
-            padding: 1px;
+            padding-top: 20px;
             margin: 0;
-            background-color: #03A9F4;
             margin-bottom: 30px;
             font-family: 'Montserrat', sans-serif;
             font-size: 1.5rem;
