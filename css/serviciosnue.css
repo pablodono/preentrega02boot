@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -11,44 +10,29 @@ body{
     background-color: #121F3D;
 }
 
+/* NAV BOOTSTRAP*/
+
+
 nav{
-    width: 100%;
-    height: 70px;
-    margin:0 auto;
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(51,16,140,1) 53%, rgba(87,27,237,1) 100%);
-    display: flex;
-    justify-content: space-between;
 }
 
-.icoredes img{
-    width: 161px;
-    height: 60px;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 5px;
-    margin: auto;
-}
-nav ul{
-    list-style: none;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-}
-
-nav ul a{
-    font-weight: 500;
+.letraB {
     color: white;
     text-decoration: none;
-    padding: .8rem;
-    border-radius: 20px;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 7px;
 }
-nav ul a:hover{
-    transition: all 0.8s;
-    font-weight: 500;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border-radius: 20px;
+
+
+.letraB:hover {
+    color: black;
+    background-color: white;
+    border-radius: 25px;
+    transition: all .5s;
 }
+
 
 .logo{
     width:  161px;
@@ -57,6 +41,19 @@ nav ul a:hover{
     top: 4px;
     left: 4px;
 }
+
+.logoBairesNav{
+    width:  161px;
+    height: 60px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+    margin-right: 50px;
+    margin-bottom: 5px;
+}
+
+/* LINEA AZUL*/
+
 
 .lineaAzul {
     width: 100%;
@@ -67,37 +64,6 @@ nav ul a:hover{
     flex-direction: row;
     justify-content: flex-end;
 }
-
-
-.lineaAzul .contentTel a{
-    font-size: 12px;
-    border-radius: 15px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    color: aliceblue;
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    flex-direction: row;
-    text-decoration: none;
-}
-
-.lineaAzul .Seccion h4{
-    font-size: 1rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    color: rgb(240, 255, 243);
-    text-decoration: none;
-}
-
-.lineaAzul .Seccion {
-    font-size: 1rem;
-    position: absolute;
-    top: 82px;
-    left: 0px;
-    margin-left: 25px;
-}
-
 
 
 .contentTel {
@@ -129,6 +95,33 @@ nav ul a:hover{
 .tel:hover {
     background-color: rgb(98, 37, 197);
     transition: all .5s;
+}
+
+
+.lineaAzul .contentTel a{
+    font-size: 12px;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.lineaAzul .Seccion h4{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: rgb(240, 255, 243);
+    text-decoration: none;
+}
+
+.lineaAzul .Seccion {
+    font-size: 1rem;
+    margin-left: 25px;
 }
 
 .contentMail {
@@ -174,6 +167,10 @@ nav ul a:hover{
     flex-direction: row;
     text-decoration: none;
 }
+
+/*CUERPO*/
+
+
 
 
 .contenedor {
@@ -788,6 +785,12 @@ p {
 }
 
 @media (max-width: 1000px)  {
+    .logoBairesNav{
+        width:  161px;
+        height: 60px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 .contenedor {
     display: flex;
     justify-content: flex-start;
@@ -834,47 +837,9 @@ p {
     .menu {
         font-size: 0.8rem;
         }
-    nav{
-        width: 100%;
-        height: 135px;
-    }
-    nav ul{
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-        background: rgba(87,27,237,1) 100%);
-        padding: 12px;
-    }
-    .logo{
-        width:  161px;
-        height: 60px;
-        display: flex;
-        justify-items: center;
-        margin: auto;
-    }
-    nav ul li{
-        margin: 2px;
-    }
-    nav ul{
-        padding: 12px;
-        display: flex;
-        align-items: start;
-    }
-    nav ul a{
-        font-weight: 500;
-        color: white;
-        text-decoration: none;
-        padding: .1rem;
-        border-radius: 20px;
-    }
-    nav ul a:hover{
-        transition: all 0.8s;
-        font-weight: 500;
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
-        border-radius: 20px;
-    }
+        
+        
+        
     .lineaAzul .Seccion h4{
         display: none;
         }
