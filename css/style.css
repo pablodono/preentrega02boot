@@ -1,0 +1,538 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    background-color: #121F3D;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    margin:0 auto;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(51,16,140,1) 53%, rgba(87,27,237,1) 100%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.icoredes img{
+    width: 161px;
+    height: 60px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin: auto;
+}
+
+nav ul{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul a{
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: .8rem;
+    border-radius: 20px;
+}
+nav ul a:hover{
+    transition: all 0.8s;
+    font-weight: 500;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.logo{
+    width:  161px;
+    height: 60px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+}
+
+.lineaAzul {
+    width: 100%;
+    height: 45px;
+    background-color: #121F3D;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+.contentTel {
+    width: 170;
+    height: 30px;
+    align-self: auto;
+    padding-top: 7.5px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+
+.tel {
+    width: 170px;
+    height: 30px;
+    color: white;
+    border: solid 2px #03A9F4;
+    font-size: 12px;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    align-self: auto;
+}
+
+.tel:hover {
+    background-color: rgb(98, 37, 197);
+    transition: all .5s;
+}
+
+
+.lineaAzul .contentTel a{
+    font-size: 12px;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.lineaAzul .Seccion h4{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: rgb(240, 255, 243);
+    text-decoration: none;
+}
+
+.lineaAzul .Seccion {
+    font-size: 1rem;
+    position: absolute;
+    top: 82px;
+    left: 0px;
+    margin-left: 25px;
+}
+
+.contentMail {
+    width: 200px;
+    height: 30px;
+    align-self: auto;
+    padding-top: 7.5px;
+    margin-left: 10px;
+}
+
+.Mail {
+    width: 220px;
+    height: 30px;
+    color: white;
+    border: solid 2px #03A9F4;
+    font-size: 12px;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+
+
+
+.Mail:hover {
+    background-color: rgb(98, 37, 197);
+    transition: all .5s;
+}
+
+
+.lineaAzul .contentMail a{
+    font-size: 12px;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+
+
+.contenedor { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 4fr 2fr auto;
+    gap: 2px 2px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "cuerpo cuerpo cuerpo"
+    "Contacto1 Contacto2 Contacto3"
+    "footer footer footer";
+}
+
+.cuerpo { grid-area: cuerpo; }
+
+.footer { grid-area: footer; }
+
+.Contacto1 { grid-area: Contacto1; }
+
+.Contacto2 { grid-area: Contacto2; }
+
+.Contacto3 { grid-area: Contacto3; }
+
+.contenedor {
+    background-color: #121F3D;
+}
+
+.cuerpo {
+    grid-area: cuerpo;
+    background-color: #D7DEDC;
+    background-image: url(../assets/tribu8.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.contenedor .mensajeCuerpo{
+    grid-area: cuerpo;
+    position: relative;
+    top: 6rem;
+    bottom: 3rem;
+    padding-top: 30px;
+    margin: auto;
+    font-size: 0.9rem;
+    }
+
+
+.mensajeCuerpo {
+    grid-area: cuerpo;
+    width: 70%;
+    height: auto;
+    padding-bottom: 2rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;    
+}
+
+.mensajeCuerpo:hover{
+    background-color: rgba(255, 255, 255, 1);
+    transition: all 0.3s;
+}
+
+.mensajeCuerpo h1 {
+    margin-bottom: 30px;
+}
+
+.mensajeCuerpo h2 {
+    margin-bottom: 30px;
+}
+
+.Contacto1 {
+    border: solid 2px #03A9F4;
+    width: 354px;
+    height: 254px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.contenedorRedes {
+    width: 200px;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.icoredes:hover {
+    filter: brightness(50%);
+    transition: all .5s;
+}
+
+
+.Contacto2 {
+    width: 354px;
+    height: 254px;
+    border: solid 2px #03A9F4;
+    justify-self: center;
+    align-self: center;
+
+
+}
+
+.Contacto3 {
+    width: 354px;
+    height: 254px;
+    justify-self: center;
+    align-self: center;
+    border: solid 2px #03A9F4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.ContenMenuDown li {
+    list-style: none;
+}
+
+
+.ContenMenuDown {
+
+    width: 318px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center; 
+    margin-left: 2rem;   
+    margin-right: 3rem;
+}
+
+
+.ContenMenuDown li a {
+    font-family:'Poppins', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 400;
+    text-decoration:underline;
+    color: #03A9F4;
+}
+
+
+
+.footer {
+    grid-area: footer;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(51,16,140,1) 53%, rgba(87,27,237,1) 100%);
+    padding: 1rem;
+}
+
+
+
+.cartelWEB {
+    width: 950px;
+    height: 380px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 220px;
+    left: 250px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.cartelWEB:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: all .5s;
+}
+
+.animate__animated {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+
+h1 {
+color: #000;
+}
+
+
+h2 {
+    color: #000;
+    }
+
+h4 {
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+
+.ContenMenuDown li h3 {
+    color: white;
+    }
+
+
+.descripcionBaires {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: start;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+}
+
+.footer a{
+    color: #03A9F4;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.Logo2 {
+    margin: 2rem;
+}
+
+
+
+
+/* MEDIAS QUERIES */
+
+@media (max-width: 1300px)  {
+    .Contacto1, .Contacto2, .Contacto3 {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 1000px)  {
+    .contenedor .mensajeCuerpo {
+        margin-bottom: 10rem;
+        font-size: 0.8rem;
+    }
+    .cuerpo {
+        background-image: url(../assets/tribu8.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .contenedor {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 2fr 2fr 1fr;
+        gap: 2px 2px;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "cuerpo cuerpo cuerpo"
+        "Contacto Contacto Contacto"
+        "footer footer footer";
+    }
+    .cuerpo { grid-area: cuerpo; }
+    .Contacto { grid-area: Contacto; }
+    .footer { grid-area: footer; }
+
+    .Contacto1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    }
+    .Contacto2 {
+        margin: 50px;
+    }
+    .Contacto3 {
+        margin: 50px;
+    }
+
+    .Contacto1, .Contacto2, .Contacto3 {
+        margin: 15px auto;
+        }
+}
+
+
+
+/* MEDIAS QUERIES 2 */
+
+
+@media (max-width: 830px)  {
+    .lineaAzul {
+        width: 100%;
+        height: 45px;
+        flex-wrap:nowrap;
+        justify-content: center;
+    }
+    .contenedor .mensajeCuerpo {
+        margin-bottom: 10rem;
+        font-size: 0.7rem;
+    }
+    .menu {
+        font-size: 0.8rem;
+    }
+    nav{
+        width: 100%;
+        height: 135px;
+    }
+    nav ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        background: rgba(87,27,237,1) 100%);
+        padding: 12px;
+    }
+    .logo{
+        width:  161px;
+        height: 60px;
+        display: flex;
+        justify-items: center;
+        margin: auto;
+    }
+
+    nav ul li{
+        margin: 2px;
+    }
+
+    nav ul a{
+        font-weight: 500;
+        color: white;
+        text-decoration: none;
+        padding: .1rem;
+        border-radius: 20px;
+    }
+    nav ul a:hover{
+        transition: all 0.8s;
+        font-weight: 500;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 20px;
+    }
+    .lineaAzul .Seccion h4{
+        display: none;
+    }
+
+    .Contacto1, .Contacto2, .Contacto3 {
+        margin: 15px auto;
+        }
+    
+}

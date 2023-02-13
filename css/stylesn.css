@@ -1,0 +1,467 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+.fondoLogo {
+    width: 288px;
+    height: 71px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(51,16,140,1) 53%, rgba(87,27,237,1) 100%);
+    position: absolute;
+    top: 3px;
+    left: 0px;
+}
+
+.fondoMenuCentral {
+    width: 882px;
+    height: 71px;
+    position: absolute;
+    top: 3px;
+    left: 288px;
+    background-color: #571bed;
+
+}
+
+
+.fondoSinLogo {
+    width: 288px;
+    height: 71px;
+    position: absolute;
+    top: 3px;
+    left: 1170px;
+    background: rgb(87,27,237);
+    background: linear-gradient(90deg, rgba(87,27,237,1) 0%, rgba(42,118,227,1) 36%, rgba(3,198,218,1) 100%);
+}
+
+
+.letraBaires {
+    color: white;
+    font-size: 21px;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 4px;
+    left: 110px;
+}
+
+.letraConsulting {
+    color: white;
+    font-size: 21px;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 23px;
+    left: 110px;
+}
+
+
+.slogan {
+    color: white;
+    font-size: 8px;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 52px;
+    left: 125px;
+}
+
+
+
+.logoB {
+    width: 52px;
+    height: 60px;
+    position: absolute;
+    top: 5px;
+    left: 50px;
+}
+
+.botoneraCentral {
+    list-style: none;
+
+}
+
+.botoneraCentral a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.87rem;
+    text-decoration: none;
+    color: white;
+    background-color: #571bed;
+    padding: 18px;
+
+}
+
+.botoneraCentral li {
+    display: inline-block;
+    align-items: center;
+}
+
+ul {
+    padding: 25px;
+    position: relative;
+    left: 80px;
+}
+
+.botoneraCentral   li a:hover {
+    background-color: white;
+    width: 15px;
+    height: 85px;
+    color: black;
+    transition: all .5s;
+}
+
+
+.contentTel {
+    width: 258px;
+    height: 70px;
+    position: absolute;
+    top: 0.5rem;
+    left: 1192px;
+}
+
+.tel {
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    top: 23px;
+    left: 1200px;
+    color: white;
+    box-shadow: 2px 2px 50px #000;
+    background-color: #02e675;
+    font-size: 12px;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+
+
+
+.tel:hover {
+    background-color: rgb(98, 37, 197);
+    transition: all .5s;
+}
+
+
+/* FIN Header */
+
+/* .lineaFina {
+    width: 1450px;
+    height: 2px;
+    background-color: #221E22;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+} */
+
+/* MAIN */
+
+
+.fondoCuerpoN {
+    width: 1458px;
+    height: 700px;
+    position: relative;
+    background-color: #8DA9C4;
+    top: 77px;
+}
+
+#nombreAbogada {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    position: absolute;
+    top: 15px;
+    left: 460px;
+    z-index: 90;
+}
+
+
+#nombreAbogado2 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 40px;
+    left: 390px;
+    z-index: 90;
+}
+
+#nombreAbogado3 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 40px;
+    left: 410px;
+    z-index: 90;
+}
+
+h1 {
+color: white;
+}
+
+h3 {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+#descripcionAbogada {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 400;
+    text-align: left;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top: 75px;
+    left: 440px;
+    z-index: 90;
+}
+
+#descripcionAbogado2 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 400;
+    text-align: left;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 40px;
+    position: absolute;
+    top: 100px;
+    left: 370px;
+    z-index: 90;
+}
+
+#descripcionAbogado3 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 400;
+    text-align: left;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top: 100px;
+    left: 390px;
+    z-index: 90;
+}
+
+.fotoAbogada {
+    width: 350px;
+    height: 234px;
+    border-radius: 25px;
+    position: absolute;
+    top: 75px;
+    left: 90px;
+    z-index: 50;
+}
+
+.fondoPresentacionAbogada {
+    width: 1350px;
+    height: 340px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    z-index: 20;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.fondoPresentacionAbogado2 {
+    width: 650px;
+    height: 240px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 420px;
+    left: 50px;
+    z-index: 30;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.fondoPresentacionAbogado3 {
+    width: 650px;
+    height: 240px;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 420px;
+    left: 750px;
+    z-index: 30;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.fotoAbogado2 {
+    width: 300px;
+    height: 162px;
+    border-radius: 25px;
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    z-index: 50;
+}
+
+.fotoAbogado3 {
+    width: 300px;
+    height: 162px;
+    border-radius: 25px;
+    position: absolute;
+    top: 35px;
+    left: 40px;
+    z-index: 50;
+}
+
+
+.contactoBajo {
+    width: 1458px;
+    height: 350px;
+    background-color: #D7DEDC;
+    position: absolute;
+    top: 700px;
+    justify-content: center;
+}
+
+
+
+.navegaDown ul{
+    list-style: none;
+    text-align: left;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    position: absolute;
+    top: 100px;
+    left: 275px;
+}
+
+
+.lineaFina2 {
+    width: 1450px;
+    height: 2px;
+    background-color: #221E22;
+    position: absolute;
+    top: 752px;
+    left: 0px;
+}
+
+.contentCoppy {
+    display: flex;
+    width: 1450px;
+    height: 70px;
+    background-color: #221E22;
+    position: absolute;
+    top: 1052px;
+    justify-content: center;
+}
+
+.copyy {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #EEF4ED;
+    position: absolute;
+    top: 25px;
+}
+
+.contactoBajo h3{
+    color: #8DA9C4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#letraContacto {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    top: 30px;
+    left: 300px;
+}
+
+#letraUbic {
+    color:#000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    top: 40px;
+    left: 300px;
+}
+
+.Mapa {
+    position: absolute;
+    top: 30px;
+    left: 780px;
+}
+
+
+.contentFooter {
+    display: flex;
+    width: 1458px;
+    height: 50px;
+    background-color: #221E22;
+    position: absolute;
+    top: 1128px;
+    justify-content: center;
+    -webkit-box-shadow: 0px -7px 11px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -7px 11px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px -7px 11px -3px rgba(0,0,0,0.75);
+}
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #EEF4ED;
+    position: absolute;
+    top: 15px;
+}
+.botoneraCentral {
+    list-style: none;
+
+}
+
+.botoneraCentral a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.87rem;
+    text-decoration: none;
+    color: white;
+    background-color: #571bed;
+    padding: 18px;
+
+}
+
+.botoneraCentral li {
+    display: inline-block;
+    align-items: center;
+}
+
+ul {
+    padding: 25px;
+    position: relative;
+    left: 80px;
+}
+
+.botoneraCentral   li a:hover {
+    background-color: white;
+    width: 15px;
+    height: 85px;
+    color: black;
+    transition: all .5s;
+}
+
+
+.fotoJusticia {
+    width: 1458px;
+    height: 700px;
+    filter: brightness(60%);
+
+    
+}

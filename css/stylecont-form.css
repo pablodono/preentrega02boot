@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+.fondoLogo {
+    width: 288px;
+    height: 71px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(51,16,140,1) 53%, rgba(87,27,237,1) 100%);
+    position: absolute;
+    top: 3px;
+    left: 0px;
+}
+
+.fondoMenuCentral {
+    width: 882px;
+    height: 71px;
+    position: absolute;
+    top: 3px;
+    left: 288px;
+    background-color: #571bed;
+
+}
+
+
+.fondoSinLogo {
+    width: 288px;
+    height: 71px;
+    position: absolute;
+    top: 3px;
+    left: 1170px;
+    background: rgb(87,27,237);
+    background: linear-gradient(90deg, rgba(87,27,237,1) 0%, rgba(42,118,227,1) 36%, rgba(3,198,218,1) 100%);
+}
+
+
+.letraBaires {
+    color: white;
+    font-size: 21px;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 4px;
+    left: 110px;
+}
+
+.letraConsulting {
+    color: white;
+    font-size: 21px;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 23px;
+    left: 110px;
+}
+
+
+.slogan {
+    color: white;
+    font-size: 8px;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 52px;
+    left: 125px;
+}
+
+
+
+.logoB {
+    width: 52px;
+    height: 60px;
+    position: absolute;
+    top: 5px;
+    left: 50px;
+}
+
+.botoneraCentral {
+    list-style: none;
+
+}
+
+.botoneraCentral a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.87rem;
+    text-decoration: none;
+    color: white;
+    background-color: #571bed;
+    padding: 18px;
+
+}
+
+.botoneraCentral li {
+    display: inline-block;
+    align-items: center;
+}
+
+ul {
+    padding: 25px;
+    position: relative;
+    left: 80px;
+}
+
+.botoneraCentral   li a:hover {
+    background-color: white;
+    width: 15px;
+    height: 85px;
+    color: black;
+    transition: all .5s;
+}
+
+
+.contentTel {
+    width: 258px;
+    height: 70px;
+    position: absolute;
+    top: 0.5rem;
+    left: 1192px;
+}
+
+.tel {
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    top: 23px;
+    left: 1200px;
+    color: white;
+    box-shadow: 2px 2px 50px #000;
+    background-color: #02e675;
+    font-size: 12px;
+    border-radius: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+}
+
+
+
+.tel:hover {
+    background-color: rgb(98, 37, 197);
+    transition: all .5s;
+}
+
+
+
+
+
+
+/* MAIN */
+
+
+.fondoCuerpoCont {
+    width: 1458px;
+    height: 700px;
+    position: relative;
+    background-color: #8DA9C4;
+    top: 77px;
+    }
+
+
+#tituloForm {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    position: absolute;
+    top: 35px;
+    left: 260px;
+    z-index: 90;
+}
+
+h1 {
+color: white;
+}
+
+h3 {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+#descripcionAutomotor {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 400;
+    text-align: left;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top: 100px;
+    left: 440px;
+    z-index: 90;
+}
+
+.fondoPresentacionAutomotor {
+    width: 950px;
+    height: 600px;
+    background-color:rgba(215, 222, 220, 0.2);
+    position: absolute;
+    top: 30px;
+    left: 250px;
+    z-index: 20;
+    color: white;
+    border-radius: 25px;
+    text-align: center;
+}
+
+
+
+.contactoBajo {
+    display: flex;
+    width: 1450px;
+    height: 300px;
+    background-color: #D7DEDC;
+    position: absolute;
+    top: 752px;
+    justify-content: center;
+}
+
+.lineaFina2 {
+    width: 1450px;
+    height: 2px;
+    background-color: #221E22;
+    position: absolute;
+    top: 752px;
+    left: 0px;
+}
+
+
+
+.contactoBajo h3{
+    color: #8DA9C4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#letraContacto {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    top: 30px;
+    left: 300px;
+}
+
+#letraUbic {
+    color:#000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    position: absolute;
+    top: 40px;
+    left: 300px;
+}
+
+.mapa {
+    position: absolute;
+    top: 30px;
+    left: 780px;
+}
+
+.letraContactanos {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+/*FORMULARIO*/
+
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #ffffff;
+    font-size: 0.875em;
+}
+
+input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #ffffff;
+    font-size: 0.875em;
+}
+
+input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+    color: #ffffff;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #ffffff;
+    font-size: 0.875em;
+}
+
+input:focus::placeholder, textarea::focus:placeholder {
+    color: #ffffff;
+}
+
+input::-ms-placeholder, textarea::-ms-placeholder {
+    color: #ffffff;
+    font-size: 0.875em;
+}
+
+input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+    color: #bbb5af;
+}
+
+  /* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+    color: #cbc6c1;
+}
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+    color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+    color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+    color: #e2dedb;
+    font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+    color: #cbc6c1;
+}
+
+
+#form {
+    position: relative;
+    width: 500px;
+    margin: 50px auto 100px auto;
+}
+
+input {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    width: 470px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    background: transparent;
+    outline: none;
+    color: #ffffff;
+    border: solid 1px #ffffff;
+    border-bottom: none;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+    background: #571bed;
+    color: #e2dedb;
+}
+
+textarea {
+    width: 470px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+    background: transparent;
+    outline: none;
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    border: solid 1px #ffffff;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+    background: #571bed;
+    color: #e2dedb;
+}
+
+#submit {
+    width: 470px;
+    padding: 0;
+    margin: 25px 0px 0px 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    color: #ffffff;
+    outline:none;
+    cursor: pointer;
+    border: solid 1px #ffffff;
+}
+
+#submit:hover {
+    color: #e2dedb;
+}
+
+
+.contentFooter {
+    display: flex;
+    width: 1458px;
+    height: 50px;
+    background-color: #221E22;
+    position: absolute;
+    top: 1127px;
+    justify-content: center;
+    -webkit-box-shadow: 0px -7px 11px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -7px 11px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px -7px 11px -3px rgba(0,0,0,0.75);
+}
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #EEF4ED;
+    position: absolute;
+    top: 15px;
+}
+
+.contactoBajo {
+    display: flex;
+    width: 1458px;
+    height: 350px;
+    background-color: #D7DEDC;
+    position: absolute;
+    top: 777px;
+    justify-content: center;
+}
+
+
+
+
+.contactoBajo h3{
+    color: #8DA9C4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+
+.navegaDown ul{
+    list-style: none;
+    text-align: left;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    position: absolute;
+    top: 100px;
+    left: 275px;
+}
+
+
+
+.fotoMensaje {
+    width: 1458px;
+    height: 700px;
+    filter: brightness(100%);
+    background-repeat:space;
+    
+}
