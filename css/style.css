@@ -433,6 +433,8 @@ h4 {
     }
 }
 
+/* MEDIAS QUERIES 2 */
+
 @media (max-width: 1000px)  {
     .logoBairesNav{
         width:  161px;
@@ -442,7 +444,7 @@ h4 {
     }
 
     .mensajeCuerpo {
-        height: 22em;
+        height: 300px;
     }
 
     .mensajeCuerpo h1 {
@@ -489,7 +491,7 @@ h4 {
 
 
 
-/* MEDIAS QUERIES 2 */
+/* MEDIAS QUERIES 3 */
 
 
 @media (max-width: 830px)  {
@@ -521,10 +523,10 @@ h4 {
         margin-bottom: 2rem;
         font-size: 0.7rem;
     }
-        .mensajeCuerpo {
+        /* .mensajeCuerpo {
         height: 22em;
         max-height: 270px;
-    }
+    } */
     .menu {
         font-size: 0.8rem;
     }
@@ -562,12 +564,11 @@ h4 {
         }
 }
 
-/* MEDIAS QUERIES 2 */
+/* MEDIAS QUERIES 4 */
 
 
-@media (max-width: 830px)  {
-        .mensajeCuerpo {
-            height: 480px;
-            max-height: 480px;
-        }
+@media (max-width: 600px)  {
+    .mensajeCuerpo {
+        height: 430px;
+    }
     }
