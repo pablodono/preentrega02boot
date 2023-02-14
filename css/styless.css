@@ -587,34 +587,3 @@ h3 {
     top: 30px;
     left: 780px;
 }
-
-/* SubMenu */
-
-
-
-/* 
-
-.SubMenu ul ul li a {
-    padding: 30px 20px;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400px;
-    text-decoration: none;
-}
-
-
-.SubMenu > li > a{
-    display: inline-block;
-    padding: 30px 20px;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400px;
-    text-decoration: none;
-}
-
-
-.FotoTT {
-    filter: saturate(75%);
-    object-fit:cover;
-} */
-

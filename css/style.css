@@ -521,6 +521,10 @@ h4 {
         margin-bottom: 2rem;
         font-size: 0.7rem;
     }
+        .mensajeCuerpo {
+        height: 22em;
+        max-height: 270px;
+    }
     .menu {
         font-size: 0.8rem;
     }
@@ -540,9 +544,6 @@ h4 {
         margin: 15px auto;
         }
 
-        .mensajeCuerpo {
-            height: 370px;
-        }
 
 
 
@@ -560,3 +561,13 @@ h4 {
             margin: 5px;
         }
 }
+
+/* MEDIAS QUERIES 2 */
+
+
+@media (max-width: 830px)  {
+        .mensajeCuerpo {
+            height: 480px;
+            max-height: 480px;
+        }
+    }
