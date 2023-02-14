@@ -337,7 +337,10 @@ nav{
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
+    justify-content: center;
 }
+
+
 
 
 
@@ -348,12 +351,11 @@ nav{
     height: 680px;
     background-color:rgba(215, 222, 220, 0.7);
     color: white;
-    border-radius: 0px 25px 25px 0px;
+    border-radius: 25px 25px 25px 25px;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
-
 
 .CardAuto:hover {
     background-color:rgba(215, 222, 220, 1);
@@ -404,6 +406,8 @@ nav{
 
 
 
+
+
 .Inmobiliario {
     display: flex;
     justify-items: center;
@@ -413,7 +417,10 @@ nav{
     background-size: cover; 
     background-position:center;
     background-repeat: no-repeat;
+    justify-content: end;
 }
+
+
 
 
 .CardInmo {
@@ -423,7 +430,7 @@ nav{
     height: 680px;
     background-color:rgba(215, 222, 220, 0.7);
     color: white;
-    border-radius: 0px 25px 25px 0px;
+    border-radius: 20px 0px 0px 25px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -727,6 +734,13 @@ h3 {
       .Automotores { grid-area: Automotores; }
       
       .Inmobiliario { grid-area: Inmobiliario; }
+    
+      .Personas, .Automotores, .Inmobiliario {
+        justify-content: start;
+    }
+    .CardPersonas, .CardAuto, .CardInmo {
+        border-radius: 0px 25px 25px 0px;
+    }
     
       .contenedorCont {
         display: flex;
