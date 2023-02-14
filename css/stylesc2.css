@@ -253,9 +253,9 @@ nav{
 .TitulociuARG {
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
+    font-weight: 800;
     color: rgb(255, 255, 255);
-    margin: 20px auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 
@@ -286,22 +286,35 @@ nav{
 .BotConsulta {
     width: 170px;
     height: 30px;
-    color: white;
     box-shadow: 2px 2px 15px #000;
     background-color: #02e675;
-    font-size: 12px;
     border-radius: 15px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
-    margin-top: 40px;
-    display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
+    align-self: center;
+    color: white;
+    font-family:'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 40px;
 }
+
+.BotConsulta a h4{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    margin: 5px;
+}
+
 
 .BotConsulta a {
     text-decoration: none;
-    color: white;
 }
 
 
@@ -355,9 +368,9 @@ nav{
 .TitulociuITA {
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
+    font-weight: 800;
     color: rgb(255, 255, 255);
-    margin: 20px auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .bandeITA {
@@ -426,9 +439,9 @@ nav{
 .TitulociuESP {
     font-family: 'Montserrat', sans-serif;
     font-style: italic;
+    font-weight: 800;
     color: rgb(255, 255, 255);
-    margin: 20px auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .bandeESP {
@@ -536,15 +549,29 @@ h3 {
     justify-content: space-around;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    margin: 5px auto;
 }
 
 .ContenMenuDown li {
     list-style: none;
 }
 
+.BAneg {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+
+}
+
 
 
 .Contacto2 {
+    display: flex;
     border: solid 2px #03A9F4;
     width: 354px;
     height: 254px;
@@ -618,6 +645,9 @@ h3 {
 .ContenMenuDown li h3 {
     color: white;
     }
+
+
+
 
 
 

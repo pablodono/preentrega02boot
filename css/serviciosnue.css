@@ -213,6 +213,10 @@ nav{
 
 .Servicio1 h2 {
     padding: 0.4rem;
+    color: black;
+    font-weight: 800;
+    font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .Servicio1 h3 {
@@ -231,13 +235,17 @@ nav{
     font-size: 0.95rem;
     font-family: 'Montserrat', sans-serif;
     text-align: start;
-    margin-top: 0.4rem;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    margin-top: 0.1rem;
+    padding-top: 0.5px;
+
 }
 
 .Servicio2 h2 {
     padding: 0.4rem;
+    color: black;
+    font-weight: 800;
+    font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .Servicio2 h3 {
@@ -256,15 +264,18 @@ nav{
     font-size: 0.95rem;
     font-family: 'Montserrat', sans-serif;
     text-align: start;
-    margin-top: 0.4rem;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    margin-top: 0.1rem;
+    padding-top: 0.5px;
 }
 
 
 
 .Servicio3 h2 {
     padding: 0.4rem;
+    color: black;
+    font-weight: 800;
+    font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -285,13 +296,16 @@ nav{
     font-size: 0.95rem;
     font-family: 'Montserrat', sans-serif;
     text-align: start;
-    margin-top: 0.4rem;
-    padding-top: 7px;
-    padding-bottom: 7px;
+    margin-top: 0.1rem;
+    padding-top: 0.5px;
 }
 
 .Servicio4 h2 {
     padding: 0.4rem;
+    color: black;
+    font-weight: 800;
+    font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .Servicio4 h3 {
@@ -318,6 +332,10 @@ nav{
 
 .Servicio5 h2 {
     padding: 0.4rem;
+    color: black;
+    font-weight: 800;
+    font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .Servicio5 h3 {
@@ -345,6 +363,10 @@ nav{
 
 .Servicio6 h2 {
     padding: 0.4rem;
+    color: black;
+    font-weight: 800;
+    font-size: 1.6em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -418,7 +440,7 @@ nav{
     display: flex;
     flex-direction: column;
     width: 420px;
-    height: 450px;
+    height: 490px;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 15px;
     align-items: center;
@@ -494,6 +516,10 @@ nav{
     transition: all .5s;
 }
 
+
+/*CONTACTO*/
+
+
 .Contacto1 {
     background-color: #121F3D;
 }
@@ -515,7 +541,7 @@ nav{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    margin: 50px;
+    margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -560,18 +586,33 @@ nav{
     background-color: #121F3D;
     align-items: center;
     justify-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: space-around;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    margin: 5px auto;
 }
 
 .ContenMenuDown li {
     list-style: none;
 }
 
+.BAneg {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+
+}
+
 
 
 .Contacto2 {
+    display: flex;
     border: solid 2px #03A9F4;
     width: 354px;
     height: 254px;
@@ -579,6 +620,7 @@ nav{
     justify-self: center;
     margin-top: 10px;
     margin-bottom: 20px;
+    margin: 0 auto;
 
 }
 
@@ -596,6 +638,7 @@ nav{
     align-self: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin: 0 auto;
 }
 
 
@@ -631,18 +674,6 @@ nav{
 
 
 
-h1 {
-    color: white;
-    }
-    
-h2 {
-    color: black;
-    }
-
-p {
-    color: black;
-    }
-
 
 .Redes h2 {
     font-family:'Poppins', sans-serif;
@@ -655,6 +686,11 @@ p {
 .ContenMenuDown li h3 {
     color: white;
     }
+
+
+
+
+/*FOOTER*/
 
 
 .footer {
