@@ -431,6 +431,11 @@ h4 {
     .Contacto1, .Contacto2, .Contacto3 {
         margin: 20px;
     }
+    .contenedorDesc h2 {
+        text-align: justify;
+        padding: 2px;
+        margin: 10px;
+    }
 }
 
 /* MEDIAS QUERIES 2 */
@@ -571,4 +576,5 @@ h4 {
     .mensajeCuerpo {
         height: 430px;
     }
+
     }
