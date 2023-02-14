@@ -190,15 +190,18 @@ nav{
     height: 650px;
     background-image: url(../assets/mensaje2.PNG);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     filter: brightness(100%);
-    background-repeat:space;
+
     }
 
 
     .tituloContactanos {
+        color: #000000;
         font-family: 'Montserrat', sans-serif;
-        color: #ffffff;
+        font-size: 1.6em;
+        font-weight: 800;
         margin: 50px auto;
     }
 
